@@ -15,41 +15,49 @@ while True:
     Fahrenheit = float(input("Digite a temperatura em Fahrenheit: "))
     celsius = (Fahrenheit - 32) * 5 / 9
     print("A temperatura em Celsius é:", round(celsius, 1))
+    input("digite enter para abrir o menu")
 
   elif opcao == "2":
     celsius = float(input("Digite a temperatura em Celsius: "))
     Fahrenheit = celsius * 9 / 5 + 32
     print("A temperatura em Fahrenheit é:", round(Fahrenheit, 1))
+    input("digite enter para abrir o menu")
 
   elif opcao == "3":
     libras = float(input("Digite o peso em libras: "))
     kg = libras / 2.20462
     print("O peso em KG é:", round(kg, 1))
+    input("digite enter para abrir o menu")
 
   elif opcao == "4":
     kg = float(input("Digite o peso em KG: "))
     libras = kg * 2.20462
     print("O peso em libras é:", round(libras, 1))
+    input("digite enter para abrir o menu")
 
   elif opcao == "5":
     milhas = float(input("Digite a distância em milhas: "))
     km = milhas * 1.60934
     print("A distância em KM é:", round(km, 1))
+    input("digite enter para abrir o menu")
 
   elif opcao == "6":
     km = float(input("Digite a distância em KM: "))
     milhas = km / 1.60934
     print("A distância em milhas é:", round(milhas, 1))
+    input("digite enter para abrir o menu")
 
   elif opcao == "7":
     horas = float(input("Digite o número de horas: "))
     minutos = horas * 60
     print(f"{horas} horas equivalem a {round(minutos, 1)} minutos")
+    input("digite enter para abrir o menu")
 
   elif opcao == "8":
     minutos = float(input("Digite o número de minutos: "))
     horas = minutos / 60
     print(f"{minutos} minutos equivalem a {round(horas, 1)} horas")
+    input("digite enter para abrir o menu")
 
   elif opcao == "0":
     print("Obrigado por usar o nosso programa! Até mais")
