@@ -25,5 +25,5 @@ Este é um conversor simples feito em Python, que roda diretamente no terminal. 
 4. Execute o seguinte comando:
 
 ```bash
-python conversor.py
+python Conversor.py
 
